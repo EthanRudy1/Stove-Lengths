@@ -25,8 +25,77 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+
 .side_nav{
     background-color: #29b083;
+    z-index: 1;
     position: fixed;
-    top: 1000px;
+    top: 44px;
+    left: 0px;
+    width: 240px;
+    padding-left: 10px;
+    height: 1000px;
+    overflow-y: hidden;
+}
+#profilepic{
+    border-radius: 75px;
+    width: 100px;
+    padding-top: 10px;
+    align-self: center;
+    padding-left: 60px;
+}
+#name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+.tabs{
+    position: fixed;
+    z-index: 1;
+    top: 253px;
+    left: 0px;
+    background-color: #33d9a7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 250px;
+}
+.links{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    width: 210px;
+    text-decoration: none;
+    color: black;
+}
+.links:hover{
+    color: whitesmoke;
+    background-color: #29b083;
+    border-style: inset;
+    border-width: 5px;
+    border-color: dimgray;
+}
+.links:active{
+    color: #29b083;
+    background-color: whitesmoke;
+    border-style: inset;
+    border-width: 5px;
+    border-color: dimgray;
+}
+.active{
+    z-index: 1;
+    position: fixed;
+    top: 730px;
+    left: 0;
+    width: 220px;
+    background-color: teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
 }
