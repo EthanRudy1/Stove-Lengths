@@ -1,0 +1,32 @@
+.top_nav{
+    background-color: #3cfec7;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline;
+}
+#smole{
+    display: inline;
+    padding-left: 20px;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.side_nav{
+    background-color: #29b083;
+    position: fixed;
+    top: 1000px;
+}
