@@ -34,7 +34,6 @@
     top: 4.5%;
     left: 0px;
     width: 240px;
-    padding-left: 10px;
     height: 1000px;
     overflow-y: hidden;
 }
@@ -43,11 +42,11 @@
     width: 100px;
     padding-top: 10px;
     align-self: center;
-    padding-left: 60px;
+    padding-left: 10px;
 }
 #name{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
