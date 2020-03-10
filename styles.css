@@ -6,9 +6,9 @@
     left: 0;
     overflow-x: hidden;
     width: 100%;
-    padding-top: .5%;
+    padding-top: .9%;
     padding-left: .5%;
-    padding-bottom: .5%;
+    padding-bottom: .9%;
 }
 #title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -33,7 +33,7 @@
     position: fixed;
     top: 4.5%;
     left: 0px;
-    width: 240px;
+    width: 13%;
     height: 1000px;
     overflow-y: hidden;
 }
@@ -42,7 +42,7 @@
     width: 100px;
     padding-top: 10px;
     align-self: center;
-    padding-left: 10px;
+    padding-left: 20%;
 }
 #name{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
